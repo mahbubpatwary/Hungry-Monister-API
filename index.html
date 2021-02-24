@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta charset="UTF-8"> 
+  <title>Hungry-Monister-API</title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <meta name="author" content="Mahbub"> 
+  <meta name="description" content="play with api"> 
+  <meta name="keywords" content="programming hero, web playground"> 
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/vnd.microsoft.icon"> 
+  <!--@bootstrapCss--> 
+  <link rel="stylesheet" href="css/bootstrap.min.css"> 
+  <!--custom css--> 
+  <link rel="stylesheet" href="css/style.css"> 
+ </head> 
+ <body> 
+  <header class="container"> 
+   <div> 
+    <img src="images/favicon.ico">  
+    <ul id="nav"> 
+     <li> Home </li> 
+     <li> Order </li> 
+     <li> Blog </li> 
+     <li> About </li> 
+    </ul> 
+   </div> 
+  </header> 
+  <main id="main" class="container"> 
+   <div id="searchDiv"> 
+    <input type="text" placeholder="search your meals">  
+    <button class="btn btn-success" onclick="fetchFunc()"> Search </button> 
+   </div> 
+   <div id="itemMenu"></div> 
+   <div id="category"></div> 
+  </main> 
+  <!--main js--> 
+  <script src="js/main.js"></script>  
+  <footer> 
+   <p class="programminghero">Learned and developed this site with <a href="http://www.programming-hero.com">Programming Hero</a></p> 
+  </footer>
+ </body>
+</html>

@@ -1,0 +1,113 @@
+/* Add all your styles here */
+header{
+background: #f5f5f5;
+margin-bottom: 50px;
+
+}
+#nav{
+float: right;
+
+
+}
+
+
+#nav li {
+list-style: none ;
+display: inline-block;
+background: ;
+margin: 5px;
+
+}
+
+
+header img { 
+
+width: 50px ;
+}
+
+
+#main{
+
+display: flex;
+flex-direction: column;
+justify-content: center ;
+align-items : center;
+
+
+}
+
+#searchDiv{
+
+margin: 10px auto ;
+
+}
+#searchDiv input {
+padding: 3px ;
+
+ }
+
+
+
+/* categories div csss */
+
+#itemMenu{
+margin: 50px auto;
+display: grid;
+grid-template-columns : auto auto auto auto auto;
+
+}
+
+
+
+.categori{
+border: 0.5px solid lightgray;
+margin: 5px;
+padding:;
+width: 100px;
+border-radius: 10px;
+text-align: center;
+}
+
+
+.categori img  {
+width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* item div css*/
+
+#category{
+display: ;
+justify-content : center;
+align-items : center;
+border: 1px;
+margin: auto ;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
